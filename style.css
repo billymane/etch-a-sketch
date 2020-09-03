@@ -8,7 +8,10 @@
     /* grid-gap: 1em; */
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
+    min-width: 960px;
     max-width: 960px;
+    min-height: 760px;
+    max-height: 760px;
     margin: 25px auto;
   }
 
